@@ -89,8 +89,8 @@ h1{
         }
 
 
-.other{
-    background: url(/Images/reka.jpg);
+body.other{
+    background: url(../Images/reka.jpg);
     direction:rtl;
     text-align:right;
    
