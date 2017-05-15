@@ -147,7 +147,7 @@ audio  {
 
 .pic-portret {
     
-	margin: 20px 900px 110px;
+	margin: 20px 1100px -500px;
 	float: left;
 	background-color: #f2f2f3;
 	border: 1px solid gray;
@@ -173,11 +173,33 @@ audio  {
 
 /*footer design*/
 
-#face{
-    background-position:center;
-    padding-top:60px;
+form{
+    text-align:center;
+}
 
+label{
+     margin-top:10px;
+}
+
+input[type ='text'] , select {
+
+    margin-bottom:15px;
+}
+
+input[type ='submit']
+{
+ margin-top:10px;
+}
+
+form section{
+    display:block;
 }
 
 
 
+#Send{
+    display:inline-block;
+    margin-left:50px;
+    height:30px;
+    width:50px;
+}
